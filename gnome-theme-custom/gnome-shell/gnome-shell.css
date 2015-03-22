@@ -1,0 +1,35 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+
+#panel {
+    color: #ffffff;
+    background-color: #111111;
+    font-family: "Roboto Black";
+    font-size:12px;
+    height: 25px;
+}
+
+.panel-corner {
+    -panel-corner-radius: 0;
+}
+
+.panel-button #appMenuIcon {
+    height:0;
+}
+
+.panel-button:hover {
+    text-shadow: none;
+}
+
+.popup-menu-boxpointer,
+.candidate-popup-boxpointer,
+.popup-menu-boxpointer.fallback-app-menu {
+    -arrow-base: 12px;
+    -arrow-rise: 6px;
+}
+
+.window-close, .notification-close {
+    background-image: url("close-window.svg");
+    background-size: 16px;
+    height: 16px;
+    width: 16px;
+}

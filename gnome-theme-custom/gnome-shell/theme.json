@@ -1,0 +1,9 @@
+{ 
+   "shell-theme": {
+   "name": "Custom", 
+   "author": "jahed.public@gmail.com", 
+   "version": "0.1",
+   "type":   "custom",
+   "url": "http://jahed.io" 
+    }
+}
