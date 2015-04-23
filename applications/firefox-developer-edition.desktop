@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Firefox Developer Edition
+Icon=/home/jahed/apps/firefox/browser/icons/mozicon128.png
+Exec="/home/jahed/apps/firefox" %f
+Comment=Firefox Developer Edition
+Categories=Development;IDE;Internet;
+Terminal=false
