@@ -40,3 +40,5 @@ set_prompt () {
     PS1+="$Reset "
 }
 PROMPT_COMMAND='set_prompt'
+
+alias intellij='~/apps/idea/bin/idea.sh &'
