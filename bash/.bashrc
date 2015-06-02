@@ -41,4 +41,6 @@ set_prompt () {
 }
 PROMPT_COMMAND='set_prompt'
 
-alias intellij='~/apps/idea/bin/idea.sh &'
+intellij() {
+    ~/apps/idea/bin/idea.sh $1 > /dev/null 2>&1 &
+}
