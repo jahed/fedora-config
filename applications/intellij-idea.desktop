@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=IntelliJ IDEA
+Icon=/home/jahed/apps/idea/bin/idea.png
+Exec="/home/jahed/apps/idea/bin/idea.sh" %f
+Comment=IntelliJ IDEA
+Categories=Development;IDE;
+Terminal=false
